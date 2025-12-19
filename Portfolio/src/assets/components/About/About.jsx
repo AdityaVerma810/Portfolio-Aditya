@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactTypingEffect from "react-typing-effect"
 import TypingText from '../../../TypingText';
+import profileImage from '../../../assets/profile2.jpeg'
+import Tilt from 'react-parallax-tilt'
 
 const About = () => {
   return (
@@ -57,6 +59,20 @@ const About = () => {
           </a>
           
           
+        </div>
+        {/*Right side profile image*/}
+        <div className="md:w-1/2 flex justify-center md:justify-end">
+            <Tilt className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+              tiltMaxAngleX={30}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            scale={1.05}
+            transitionSpeed={1000}
+            gyroscope={true}
+            >
+              <img src={profileImage} alt='Aditya Verma' className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]">
+              </img>
+          </Tilt>
         </div>
       </div>
     </section>
