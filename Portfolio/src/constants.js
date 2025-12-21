@@ -39,7 +39,7 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
+import glaLogo from './assets/education_logo/gla_logo.jpg';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
@@ -173,37 +173,29 @@ export const SkillsInfo = [
     {
       id: 0,
       img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      school: "Indian Institute Of Information Technology, Jabalpur",
+      date: "Aug 2023 - May 2027 ",
+      grade: "8.3 CGPA",
+      desc: "  During my B.Tech journey, I have been developing a solid foundation in computer science concepts including Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and Artificial Intelligence.In my first year, I built a strong academic base through mathematics, programming fundamentals, and logical thinking while adapting to a competitive and collaborative learning environment.During my second year, I deepened my understanding of core CS subjects, actively practiced DSA and competitive programming, and started applying theoretical knowledge through projects and hands-on assignments.In my third year, I focused more on advanced topics like AI and full-stack development, worked on real-world projects, participated in technical activities, and strengthened my problem-solving, teamwork, and mentoring skills.Overall, my experience at IIITDM Jabalpur has helped me grow both technically and professionally, preparing me to build scalable solutions and continuously learn in a fast-evolving tech ecosystem. ",
+      degree: "Btech- Bachelor Of Technology",
     },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
+    
     {
       id: 2,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      school: "Lucknow Public School",
+      date: "Apr 2021 - March 2022",
+      grade: "94%",
+      desc: "I completed my class 12 education from Lucknow Public School, Lucknow U.P , under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Physical Education.",
+      degree: "CBSE(XII) - PCM with P.Ed",
     },
     {
       id: 3,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+      school: "Lucknow Public School",
+      date: "Apr 2019 - March 2020",
+      grade: "95%",
+      desc: "I completed my class 10 education from Lucknow Public School, Lucknow U.P, under the CBSE board, where I studied Science with Computer.",
       degree: "CBSE(X), Science with Computer Application",
     },
   ];
