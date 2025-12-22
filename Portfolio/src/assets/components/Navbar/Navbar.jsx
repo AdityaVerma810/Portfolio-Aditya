@@ -45,11 +45,11 @@ const Navbar = () => {
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
-          <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Aditya</span>
-          <span className="text-[#8245ec]">/</span>
+          <span className="text-[#45ec7f]">&lt;</span>
+          <span className="text-green">Aditya</span>
+          <span className="text-[#45ec88]">/</span>
           <span className="text-white">Verma</span>
-          <span className="text-[#8245ec]">&gt;</span>
+          <span className="text-[#45ec50]">&gt;</span>
         </div>
 
         {/* Desktop Menu */}
