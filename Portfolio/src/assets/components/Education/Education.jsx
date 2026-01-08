@@ -10,7 +10,7 @@ const Education = () => {
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
-        <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <div className="w-32 h-1 bg-[#c5ec45] mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           My education has been a journey of learning and development.
         </p>
@@ -27,7 +27,7 @@ const Education = () => {
             
             {/* Timeline Circle (CENTER) */}
             <div className="absolute left-1/2 transform -translate-x-1/2 z-20">
-              <div className="bg-gray-400 border-4 border-[#8245ec] w-14 h-14 rounded-full flex items-center justify-center">
+              <div className="bg-gray-400 border-4  bg-[#c5ec45] w-14 h-14 rounded-full flex items-center justify-center">
                 <img
                   src={edu.img}
                   alt={edu.school}

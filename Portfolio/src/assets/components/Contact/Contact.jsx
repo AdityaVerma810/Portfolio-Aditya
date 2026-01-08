@@ -60,7 +60,7 @@ const Contact = () => {
 {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
-        <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <div className="w-32 h-1 bg-[#c5ec45] mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           I’d love to hear from you—reach out for any opportunities or questions!
         </p>
@@ -102,7 +102,7 @@ const Contact = () => {
           {/* Send Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+            className="w-full bg-gradient-to-r  bg-[#c5ec45] py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
           >
             Send
           </button>

@@ -57,8 +57,8 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${
-                activeSection === item.id ? "text-[#8245ec]" : ""
+              className={`cursor-pointer hover:text-[#c8ec45] ${
+                activeSection === item.id ? "text-[#8aa51f]" : ""
               }`}
             >
               <button onClick={() => handleMenuItemClick(item.id)}>
@@ -74,7 +74,7 @@ const Navbar = () => {
             href="https://github.com/AdityaVerma810"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            className="text-gray-300 hover:text-[#80a918]"
           >
             <FaGithub size={24} />
           </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/aditya-verma-3b4149305/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            className="text-gray-300 hover:text-[#8cac1b]"
           >
             <FaLinkedin size={24} />
           </a>
@@ -92,12 +92,12 @@ const Navbar = () => {
         <div className="md:hidden">
           {isOpen ? (
             <FiX
-              className="text-3xl text-[#8245ec] cursor-pointer"
+              className="text-3xl text-[#a5c71f] cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           ) : (
             <FiMenu
-              className="text-3xl text-[#8245ec] cursor-pointer"
+              className="text-3xl text-[#addd1d] cursor-pointer"
               onClick={() => setIsOpen(true)}
             />
           )}
@@ -112,7 +112,7 @@ const Navbar = () => {
               <li
                 key={item.id}
                 className={`cursor-pointer hover:text-white ${
-                  activeSection === item.id ? "text-[#8245ec]" : ""
+                  activeSection === item.id ? "text-[#c3d426]" : ""
                 }`}
               >
                 <button onClick={() => handleMenuItemClick(item.id)}>

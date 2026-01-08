@@ -1,4 +1,4 @@
-// Skills Section Logo's
+
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import sassLogo from './assets/tech_logo/sass.png';
@@ -33,17 +33,17 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
-// Experience Section Logo's
+
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
-// Education Section Logo's
+
 import glaLogo from './assets/education_logo/gla_logo.jpg';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
-// Project Section Logo's
+
 import githubdetLogo from './assets/work_logo/github_det.png';
 
 import csprepLogo from './assets/work_logo/cs_prep.jpg';
